@@ -9,7 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.12",
+    "@expo-google-fonts/inter": "^0.2.2",
+    "expo": "^47.0.13",
+    "expo-font": "~11.0.1",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-native": "0.70.5"
@@ -18,9 +20,9 @@
     "@babel/core": "^7.12.9"
   },
   "private": true,
-  "rnpm":{
-    "assets":[
-      "./assets/fonts/Work_Sans"
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
     ]
   }
 }
